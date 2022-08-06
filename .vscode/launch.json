@@ -1,0 +1,50 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "babel 自动埋点",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/auto-track/src/index.js",
+    },
+    {
+      "name": "babel 自动国际化",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/auto-i18nn/src/index.js",
+    },
+    {
+      "name": "babel 自动文档化",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/auto-document/src/index.js",
+    },
+    {
+      "name": "linter-fo-direction-lint",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/auto-document/src/for-direction-lint-entry.js",
+    },
+    {
+      "name": "no-func-assign-lint",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/linter/src/no-func-assign-lint-entry.js",
+    },
+    {
+      "name": "eq-lint",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/linter/src/eq-lint-entry.js",
+    },
+    {
+      "name": "static-path-replace",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/static-path-replace/src/index.js",
+    },
+  ]
+}

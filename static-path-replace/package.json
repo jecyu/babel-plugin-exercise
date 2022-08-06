@@ -1,0 +1,21 @@
+{
+  "name": "static-path-replace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^14.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jecyu <jecyu.lin@gmail.com> (https://github.com/jecyu)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/helper-module-imports": "^7.18.6",
+    "@babel/helper-plugin-utils": "^7.18.9",
+    "@babel/parser": "^7.18.11"
+  }
+}
